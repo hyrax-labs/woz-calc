@@ -1,0 +1,14 @@
+{
+  "affected_projects": [],
+  "audit_job_id": null,
+  "category": "",
+  "created_at": "2026-08-08T17:17:11.321887+00:00",
+  "file": "",
+  "line": null,
+  "mode": "directive",
+  "project_path": null,
+  "ref": "introduce-the-repository-s-first-test-in",
+  "severity": "",
+  "title": "Introduce the repository's first test infrastructure using only the standard li\u2026",
+  "tool": "task"
+}
