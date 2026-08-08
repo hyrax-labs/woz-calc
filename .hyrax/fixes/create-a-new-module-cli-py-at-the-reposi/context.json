@@ -1,0 +1,14 @@
+{
+  "affected_projects": [],
+  "audit_job_id": null,
+  "category": "",
+  "created_at": "2026-08-08T17:06:01.946204+00:00",
+  "file": "",
+  "line": null,
+  "mode": "directive",
+  "project_path": null,
+  "ref": "create-a-new-module-cli-py-at-the-reposi",
+  "severity": "",
+  "title": "Create a new module `cli.py` at the repository root that provides the CLI entry\u2026",
+  "tool": "task"
+}
