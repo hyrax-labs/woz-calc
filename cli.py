@@ -55,7 +55,15 @@ def main(argv=None):
     args = parser.parse_args(argv)
 
     operation = _OPERATIONS[args.command]
-    result = operation(args.a, args.b)
+    try:
+        result = operation(args.a, args.b)
+    except ZeroDivisionError:
+        print("woz-calc: error: cannot divide by zero", file=sys.stderr)
+        return 1
+    except ArithmeticError as exc:
+        print(f"woz-calc: error: {exc}", file=sys.stderr)
+        return 1
+
     print(format_result(result))
     return 0
 
